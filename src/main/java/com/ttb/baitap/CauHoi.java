@@ -7,19 +7,22 @@ import java.util.List;
 public abstract class CauHoi {
 
     private String noiDung;
-    private PhuongAn phuongAn;
+    private List<PhuongAn> phuongAn;
     private Do_Kho doKho;
+    private PhuongAn phuongAnDung;
+    
     
     public abstract void hienThi();
     public abstract void phuongAn();
-    
-       
-    public CauHoi(String noiDung, PhuongAn phuongAn, Do_Kho doKho) {
+
+    public CauHoi(String noiDung, List<PhuongAn> phuongAn, Do_Kho doKho, PhuongAn phuongAnDung) {
         this.noiDung = noiDung;
         this.phuongAn = phuongAn;
         this.doKho = doKho;
+        this.phuongAnDung = phuongAnDung;
     }
-
+    
+       
     
     
     /**
@@ -58,16 +61,35 @@ public abstract class CauHoi {
     /**
      * @return the phuongAn
      */
-    public PhuongAn getPhuongAn() {
+    public List<PhuongAn> getPhuongAn() {
         return phuongAn;
     }
 
     /**
      * @param phuongAn the phuongAn to set
      */
-    public void setPhuongAn(PhuongAn phuongAn) {
+    public void setPhuongAn(List<PhuongAn> phuongAn) {
         this.phuongAn = phuongAn;
     }
+
+    /**
+     * @return the phuongAnDung
+     */
+    public PhuongAn getPhuongAnDung() {
+        return phuongAnDung;
+    }
+
+    /**
+     * @param phuongAnDung the phuongAnDung to set
+     */
+    public void setPhuongAnDung(PhuongAn phuongAnDung) {
+        this.phuongAnDung = phuongAnDung;
+    }
+
+    /**
+     * @return the phuongAn
+     */
+    
 
 
    

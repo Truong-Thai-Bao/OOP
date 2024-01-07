@@ -1,9 +1,14 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
 package com.ttb.baitap;
 
-
-
+/**
+ *
+ * @author USER
+ */
 public class DanhMuc {
-
     private String loaiDanhMuc;
 
     public DanhMuc(String loaiDanhMuc) {
@@ -33,5 +38,4 @@ public class DanhMuc {
             this.loaiDanhMuc = loai;
         }
         
-    }
-
+}

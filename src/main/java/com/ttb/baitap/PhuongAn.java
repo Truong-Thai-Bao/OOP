@@ -1,29 +1,31 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
 package com.ttb.baitap;
 
-
+/**
+ *
+ * @author USER
+ */
 public class PhuongAn {
-
     private String noiDungPA;
 
-    private String pADung;
 
-    public PhuongAn(String noiDungPA, String pADung) {
+    public PhuongAn(String noiDungPA) {
         this.noiDungPA = noiDungPA;
-        this.pADung = pADung;
     }
 
   
 
     public PhuongAn() {
+        
     }
 
     @Override
     public String toString() {
         return String.format("%s", this.noiDungPA);
     }
-
-
-    
     
     /**
      * @return the noiDungPA
@@ -38,22 +40,4 @@ public class PhuongAn {
     public void setNoiDungPA(String noiDungPA) {
         this.noiDungPA = noiDungPA;
     }
-
-    /**
-     * @return the pADung
-     */
-    public String getpADung() {
-        return pADung;
-    }
-
-    /**
-     * @param pADung the pADung to set
-     */
-    public void setpADung(String pADung) {
-        this.pADung = pADung;
-    }
-
-
-
-
 }
